@@ -1,0 +1,329 @@
+main{
+	max-width: 1800px;
+	min-width: 636px;
+	margin:0 auto;
+	font-size: 14px;
+	font-family: "Myriad Pro";
+}
+@font-face{
+	font-family: "Myriad Pro";
+	src: url(fonts/MyriadProRegular.otf);
+}
+li{
+	list-style-type: none;
+}
+
+/*...................header...........................*/
+@media only screen and (max-width: 1095px){
+	.burger{
+	    background: white;
+	    position: absolute;
+	    z-index: 2;
+	    right: 41px;
+	    top: 116px;
+	}
+}
+.navbar{
+	height: 117px;
+	margin-bottom: 0px;
+}
+.navbar-nav{
+	margin: 34px 20px 0 0;
+}
+.navbar-default {
+    background-color: #FFF;
+    border-color: #fff;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #1d386b;
+}
+
+.underNav{
+	background-color: #1d386b;
+	width: 100%;
+	height: 64px;
+	position: relative;
+}
+.list-inline>li>a{
+	color: #ffffff
+}
+.list-inline>li {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.underNav>ul{
+	padding-top: 22px;
+	margin-right: 112px;
+}
+.romb{
+	position: absolute;
+	right: 169px;
+    top: -20px;
+}
+.underNav>ul>li:hover a {
+    color: #99ccff;
+    text-decoration: none;
+}
+a:focus, a:hover {
+    text-decoration: none;
+}
+#selected{
+	color: #99ccff;
+}
+
+
+.flags{
+	background: url(img/flags.png);
+	width: 100%;
+	height: 238px; 
+}
+
+@media only screen and (max-width: 1095px){
+	.romb{
+		display: none;
+	}
+	    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar-text {
+        float: none;
+        margin: 15px 0;
+    }
+    /* since 3.1.0 */
+    .navbar-collapse.collapse.in { 
+        display: block!important;
+    }
+    .collapsing {
+        overflow: hidden!important;
+    }
+}
+.navbar-toggle{
+	margin-top: 42px;
+	margin-right: 60px;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: transparent;
+}
+/*...................header...........................*/
+
+/*...................first section...........................*/
+
+.firstSect{
+	margin-top: 99px;
+}
+.aimg{
+	padding-left: 48px;
+}
+.aimgText{
+	padding-top: 30px;
+}
+.aimgText>h3 {
+    font-size: 38px;
+    color: #1d386b;
+}
+.aimgText>p{
+	font-size: 20px;
+}
+@media only screen and (max-width: 992px){
+	.aimg>img{
+		margin: 0 auto;
+	}
+}
+
+/*...................first section...........................*/
+
+/*...................second section...........................*/
+
+.secondSect{
+	margin-top: 85px;
+}
+.secondSect h3{
+	text-transform: uppercase;
+	color: #1d386b;
+	font-size: 38px;
+}
+.secondSect p{
+	font-size: 20px;
+}
+.IItext{
+padding-left: 78px;
+padding-top: 20px;
+}
+@media only screen and (max-width: 992px){
+	.IItext{
+		padding-left:15px; 
+	}
+}
+
+/*...................second section...........................*/
+
+/*...................third section...........................*/
+
+.thirdSect{
+	padding-top: 64px;
+}
+.thirdSect h3{
+	text-transform: uppercase;
+	color: #1d386b;
+	font-size: 38px;
+}
+.thirdSect p{
+	font-size: 20px;
+}
+.IIItext{
+	padding-top: 35px;
+}
+
+/*...................third section...........................*/
+
+/*...................fourth section...........................*/
+
+.fourthSect h3{
+	text-transform: uppercase;
+	color: #1d386b;
+	font-size: 38px;
+	text-align: center;
+	margin-bottom: 65px;
+}
+.fourthSect{
+	padding-top: 102px;
+}
+.IVsectButton{
+	margin-top: 70px;
+	text-align: center;
+	margin-bottom: 175px;
+}
+.IVsectButton button{
+	text-transform: uppercase;
+    font-size: 20px;
+    width: 472px;
+    height: 55px;
+    border: transparent;
+    color: white;
+    border-radius: 5px;
+    background-color: #e16b25;
+}
+/*...................fourth section...........................*/
+
+/*...................fifth section...........................*/
+/*...................fifth section...........................*/
+
+/*...................sixth section...........................*/
+
+.slick-list.draggable{
+	width: 90%;
+	margin: 0 auto;
+	float: left;
+}
+.slick-prev.slick-arrow, .slick-next.slick-arrow{
+	margin-top: 34px;
+}
+
+/*...................sixth section...........................*/
+
+/*...................seventh section...........................*/
+
+.seventhSect{
+	width: 100%;
+	background-color: #1d386b;
+}
+.seventhSect h3{
+	text-align: center;
+	text-transform: uppercase;
+	padding-top: 70px;
+	font-size: 38px;
+	color: #ffffff;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+.seventhSect p{
+	padding-top: 38px;
+	padding-bottom: 40px;
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	margin-bottom: 0;
+}
+@media (min-width: 768px){
+	.form-inline .form-control {
+    	width: 320px;
+    	margin: 5px;
+    }
+}
+.btn.formSect7{
+	margin-top: 20px;
+	margin-bottom: 87px;
+	text-transform: uppercase;
+	width: 400px;
+	padding-top: 10px;
+	color: white;
+	background-color: #e16b25;
+}
+
+/*...................seventh section...........................*/
+/*...................footer....................................*/
+
+.fooII{
+	background-color: #1d386b;
+	color: #808080;
+	font-size: 14px;
+}
+.fooII li{
+	display: inline;
+}
+.fooII ul{
+	display: inline;
+}
+.fooII a, .fooII li {
+	color: #808080;
+	font-size: 14px;
+}
+.l{
+	padding: 0 10px;
+}
+.fooII div{
+	padding: 14px 0;
+}
+.fooII span{
+	margin-left: 100px;
+}
+.row.foot{
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.bold{
+	font-weight: bold;
+}
+.fooI a{
+	color: #000000;
+}
+.fooI .btn{
+	color: #fff;
+	width: 129px;
+	margin: 5px 0;
+	background-color: #e16b25;
+	padding-top: 9px;
+}
+
+/*...................footer....................................*/
