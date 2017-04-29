@@ -184,12 +184,48 @@ header{
 /*...................slick...........................*/
 
 .slick-list.draggable{
-	width: 90%;
+	width: 87%;
 	margin: 0 auto;
 	float: left;
 }
 .slick-prev.slick-arrow, .slick-next.slick-arrow{
 	margin-top: 34px;
+	border-style: none;
+}
+@media(min-width: 320px){
+	.slick-list.draggable{
+		width: 79%;
+	}
+	.slick-prev.slick-arrow, .slick-next.slick-arrow{
+		margin-top: 7px;
+	}
+}
+@media(min-width: 768px){
+	.slick-list.draggable{
+		width: 83%;
+	}
+	.slick-prev.slick-arrow, .slick-next.slick-arrow{
+		margin-top: 22px;
+	}
+}
+@media(min-width: 1024px){
+	.slick-list.draggable{
+		width: 87%;
+	}
+	.slick-prev.slick-arrow, .slick-next.slick-arrow{
+		margin-top: 27px;
+	}
+}
+@media(min-width: 1440px){
+	.slick-list.draggable{
+		width: 91%;
+	}
+	.slick-prev.slick-arrow, .slick-next.slick-arrow{
+		margin-top: 35px;
+	}
+}
+.slick-prev.slick-arrow:active, .slick-next.slick-arrow:active{
+	border-style: none;
 }
 
 /*...................slick...........................*/
@@ -232,8 +268,16 @@ header{
 	color: white;
 	background-color: #e16b25;
 }
+@media(max-width: 767px){
+	.formInl{
+		margin-bottom: 15px;
+	}
+	.form-group, .formInl{
+		width: 95%
+	}
+}
 
-/*...................seventh section...........................*/
+/*...................getStart...........................*/
 
 /*...................footer....................................*/
 
@@ -277,6 +321,12 @@ header{
 	margin: 5px 0;
 	background-color: #e16b25;
 	padding-top: 9px;
+}
+@media(max-width: 767px){
+	.fooBut{
+		display: block;
+    	text-align: -webkit-center;	
+	}
 }
 
 /*...................footer....................................*/
